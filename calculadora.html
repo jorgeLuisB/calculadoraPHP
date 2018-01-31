@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+</head>
+<body>
+
+  <form action="operaciones.php" method="GET">
+
+    <fieldset>
+      <legend>Ingrese los Valores::::</legend>
+
+        <label>Ingrese el Numero 1 :</label>
+        <input type="text" name="valor1"><br><br>
+        <label>Ingrese el Numero 2 :</label>
+        <input type="text" name="valor2"><br><br>
+        <select name="operacion">
+            <option value="opcion">---SELECCIONE---</option>
+            <option value="sumar">Sumar</option>
+            <option value="restar">Restar</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+            <option value="potencia">Potencia</option>
+        </select>
+
+
+        <input type="submit"   name="enviar" value="REALIZAR">
+        
+    </fieldset>
+
+    
+
+
+
+  </form>
+  
+</body>
+</html>
